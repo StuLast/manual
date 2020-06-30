@@ -27,6 +27,9 @@ Then restart the shell and install packages.
 pacman -Su git wget make tar unzip zip mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-cmake autoconf automake mingw-w64-x86_64-libtool mingw-w64-x86_64-jq python
 ```
 
+If you're using an editor (such as .vscode), it can be very useful to setup an windows environment variable for the <rack sdk path>.  In the windows search tool, type in "environment" and select "edit  the system environment variabls".  At the bottom of the dialogue, click on "Environment Variables" then add a new environment variable to System Variables names something like "RACK_SDK".  Point this to the path to the top level Rack-SDK folder.  Note:  You will still need to edit the .bashrc file in MSys2 to use system variables in the Mingw shell.
+
+
 ### Linux
 
 On Ubuntu 16.04+:
